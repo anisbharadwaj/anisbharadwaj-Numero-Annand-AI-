@@ -1,0 +1,229 @@
+{% extends 'base.html' %}
+{% block title %}Numero Annand AI — Premium Vedic Numerology by Annand Sarma{% endblock %}
+{% block description %}AI-powered Vedic numerology analysis by Annand Sarma. Discover your birth, destiny & name numbers, Lo Shu Grid, remedies, compatibility and life guidance.{% endblock %}
+
+{% block content %}
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <span class="hero-badge"><span class="dot"></span> Vedic Wisdom · Powered by AI</span>
+      <h1>Decode Your Destiny with <span class="grad">Ancient Vedic Numerology</span></h1>
+      <p class="lead">Unlock the sacred science of numbers. Get a personalized numerological blueprint — birth, destiny, name numbers, Lo Shu Grid, remedies and life guidance — crafted by Annand Sarma's AI engine.</p>
+      <div class="hero-cta">
+        <a href="{{ url_for('vedic_analysis_page') }}" class="btn btn-gold btn-lg">Begin Your Analysis →</a>
+        <a href="#systems" class="btn btn-ghost btn-lg">Explore Systems</a>
+      </div>
+      <div class="hero-trust">
+        <div class="stat"><strong>9</strong><span>Sacred Numbers</span></div>
+        <div class="stat"><strong>3</strong><span>Languages</span></div>
+        <div class="stat"><strong>100%</strong><span>Vedic Authentic</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="mandala">
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="0.4" style="color: var(--gold); opacity: 0.7;">
+          <g class="ring">
+            <circle cx="100" cy="100" r="95" stroke-dasharray="2 4"/>
+            <circle cx="100" cy="100" r="80"/>
+            <g>
+              <text x="100" y="14" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">1</text>
+              <text x="186" y="104" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">2</text>
+              <text x="100" y="194" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">3</text>
+              <text x="14" y="104" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">4</text>
+            </g>
+          </g>
+          <g class="ring ring-2" stroke-width="0.5">
+            <circle cx="100" cy="100" r="62" stroke-dasharray="1 3"/>
+            <circle cx="100" cy="100" r="48"/>
+            <line x1="100" y1="38" x2="100" y2="162"/>
+            <line x1="38" y1="100" x2="162" y2="100"/>
+            <line x1="56" y1="56" x2="144" y2="144"/>
+            <line x1="144" y1="56" x2="56" y2="144"/>
+          </g>
+          <circle cx="100" cy="100" r="30" stroke-width="0.8"/>
+          <circle cx="100" cy="100" r="18" stroke-width="0.6" stroke-dasharray="0.5 2"/>
+        </svg>
+        <div class="mandala-core">🔮</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURES ===================== -->
+<section id="features">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>Where Ancient Wisdom Meets Modern Intelligence</h2>
+      <p>Every number carries a vibration. Our AI decodes them using authentic Vedic principles refined over millennia.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card reveal"><div class="card-icon">✨</div><h3>AI-Powered Analysis</h3><p>Advanced algorithms compute your numerological blueprint with precision no manual calculation can match.</p></div>
+      <div class="card reveal"><div class="card-icon">📊</div><h3>Lo Shu Grid Mapping</h3><p>Visualize your strengths and gaps through the ancient 3×3 Lo Shu Grid derived from your date of birth.</p></div>
+      <div class="card reveal"><div class="card-icon">🧘</div><h3>Vedic Remedies</h3><p>Authentic mantras, gemstones, colors and rituals to harmonize your life with your number vibrations.</p></div>
+      <div class="card reveal"><div class="card-icon">💕</div><h3>Compatibility Check</h3><p>Discover relationship dynamics and compatibility scores through numerological pairings.</p></div>
+      <div class="card reveal"><div class="card-icon">🌍</div><h3>Multi-Language Wisdom</h3><p>Receive guidance in English, Hindi or Assamese — spiritual insight in your native tongue.</p></div>
+      <div class="card reveal"><div class="card-icon">📄</div><h3>Premium PDF Reports</h3><p>Beautifully designed, watermarked PDF reports signed by Annand Sarma for your records.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SYSTEMS ===================== -->
+<section id="systems" style="background: linear-gradient(180deg, transparent, rgba(212,175,55,0.03), transparent);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The Sacred Science</span>
+      <h2>The Nine Sacred Numbers</h2>
+      <p>Each number from 1 to 9 carries a distinct cosmic vibration governing different aspects of your life.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="num-card reveal"><div class="num">1</div><div class="num-name">The Leader</div><div class="num-desc">Independent · Ambitious · Pioneering</div></div>
+      <div class="num-card reveal"><div class="num">2</div><div class="num-name">The Diplomat</div><div class="num-desc">Harmonious · Cooperative · Intuitive</div></div>
+      <div class="num-card reveal"><div class="num">3</div><div class="num-name">The Creative</div><div class="num-desc">Expressive · Artistic · Communicative</div></div>
+      <div class="num-card reveal"><div class="num">4</div><div class="num-name">The Builder</div><div class="num-desc">Practical · Stable · Disciplined</div></div>
+      <div class="num-card reveal"><div class="num">5</div><div class="num-name">The Freedom Seeker</div><div class="num-desc">Adventurous · Dynamic · Versatile</div></div>
+      <div class="num-card reveal"><div class="num">6</div><div class="num-name">The Caregiver</div><div class="num-desc">Nurturing · Responsible · Loving</div></div>
+      <div class="num-card reveal"><div class="num">7</div><div class="num-name">The Seeker</div><div class="num-desc">Spiritual · Analytical · Intuitive</div></div>
+      <div class="num-card reveal"><div class="num">8</div><div class="num-name">The Achiever</div><div class="num-desc">Powerful · Ambitious · Authoritative</div></div>
+      <div class="num-card reveal"><div class="num">9</div><div class="num-name">The Humanitarian</div><div class="num-desc">Compassionate · Idealistic · Universal</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section style="background: var(--bg-1);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Simple Process</span>
+      <h2>Your Journey in Four Steps</h2>
+    </div>
+    <div class="grid grid-4">
+      <div class="glass step reveal"><div class="step-num">1</div><h4>Enter Details</h4><p>Provide your full name and date of birth — the foundation of your numerological chart.</p></div>
+      <div class="glass step reveal"><div class="step-num">2</div><h4>AI Analysis</h4><p>Our engine computes your numbers using Vedic and Chaldean numerology algorithms.</p></div>
+      <div class="glass step reveal"><div class="step-num">3</div><h4>Receive Insights</h4><p>Get your complete blueprint — numbers, Lo Shu Grid, remedies and life guidance.</p></div>
+      <div class="glass step reveal"><div class="step-num">4</div><h4>Apply Remedies</h4><p>Follow personalized Vedic remedies to align your life with cosmic vibrations.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section id="pricing">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Transparent Pricing</span>
+      <h2>Choose Your Path to Insight</h2>
+      <p>Start free, unlock the full report for ₹201, or get the signed PDF for ₹501.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="price-card reveal">
+        <h3>Free Preview</h3>
+        <div class="price-amount"><span class="cur">₹</span>0</div>
+        <div class="price-period">Always free</div>
+        <ul class="price-features">
+          <li><span class="yes">✓</span> Birth, Destiny & Name numbers</li>
+          <li><span class="yes">✓</span> Number meanings preview</li>
+          <li><span class="yes">✓</span> Lo Shu Grid overview</li>
+          <li><span class="no">✗</span> Full remedies & rituals</li>
+          <li><span class="no">✗</span> PDF report download</li>
+        </ul>
+        <a href="{{ url_for('vedic_analysis_page') }}" class="btn btn-ghost btn-block">Start Free</a>
+      </div>
+      <div class="price-card featured reveal">
+        <span class="price-tag">POPULAR</span>
+        <h3>Digital Report</h3>
+        <div class="price-amount"><span class="cur">₹</span>201</div>
+        <div class="price-period">One-time payment</div>
+        <ul class="price-features">
+          <li><span class="yes">✓</span> Complete numerological analysis</li>
+          <li><span class="yes">✓</span> Full Lo Shu Grid interpretation</li>
+          <li><span class="yes">✓</span> Vedic remedies & mantras</li>
+          <li><span class="yes">✓</span> Career & compatibility guidance</li>
+          <li><span class="yes">✓</span> Yearly forecast</li>
+        </ul>
+        <a href="{{ url_for('vedic_analysis_page') }}" class="btn btn-gold btn-block">Unlock for ₹201</a>
+      </div>
+      <div class="price-card reveal">
+        <h3>Premium PDF</h3>
+        <div class="price-amount"><span class="cur">₹</span>501</div>
+        <div class="price-period">Signed PDF + everything</div>
+        <ul class="price-features">
+          <li><span class="yes">✓</span> Everything in Digital Report</li>
+          <li><span class="yes">✓</span> Beautifully designed PDF</li>
+          <li><span class="yes">✓</span> Signed by Annand Sarma</li>
+          <li><span class="yes">✓</span> Digital watermark & seal</li>
+          <li><span class="yes">✓</span> Lifetime download access</li>
+        </ul>
+        <a href="{{ url_for('vedic_analysis_page') }}" class="btn btn-ghost btn-block">Get PDF for ₹501</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section style="background: var(--bg-1);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Voices of Transformation</span>
+      <h2>What Seekers Say</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card quote-card reveal"><div class="stars">★★★★★</div><p class="quote-text">"The analysis matched my life experiences with uncanny accuracy. The remedies have brought real clarity to my decisions."</p><div class="quote-author">Priya Sharma</div><div class="quote-loc">Mumbai, India</div></div>
+      <div class="card quote-card reveal"><div class="stars">★★★★★</div><p class="quote-text">"Annand Sarma's insights through this platform helped me understand my career path. The Lo Shu Grid was eye-opening."</p><div class="quote-author">Raj Kumar</div><div class="quote-loc">Bangalore, India</div></div>
+      <div class="card quote-card reveal"><div class="stars">★★★★★</div><p class="quote-text">"Following the Vedic remedies has genuinely transformed my daily life. Grateful for this beautiful platform."</p><div class="quote-author">Anjali Patel</div><div class="quote-loc">Delhi, India</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section>
+  <div class="container">
+    <div class="cta-banner reveal">
+      <span class="eyebrow">Begin Today</span>
+      <h2>Ready to Discover Your Destiny?</h2>
+      <p>Join thousands who have unlocked their numerological blueprint. Your free analysis takes less than a minute.</p>
+      <a href="{{ url_for('vedic_analysis_page') }}" class="btn btn-gold btn-lg">Get Your Free Analysis →</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Header scroll effect
+(function(){
+  const h = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    h.classList.toggle('scrolled', window.scrollY > 30);
+  }, { passive: true });
+})();
+
+// Mobile nav toggle
+(function(){
+  const t = document.getElementById('navToggle');
+  const n = document.getElementById('siteNav');
+  if (!t || !n) return;
+  t.addEventListener('click', () => {
+    t.classList.toggle('open');
+    n.classList.toggle('open');
+    t.setAttribute('aria-expanded', n.classList.contains('open'));
+  });
+  n.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    t.classList.remove('open'); n.classList.remove('open');
+  }));
+})();
+
+// Reveal on scroll
+(function(){
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = (i % 3) * 0.08 + 's';
+    io.observe(el);
+  });
+})();
+</script>
+{% endblock %}

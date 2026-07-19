@@ -1,0 +1,8 @@
+{
+  "name": "Numero Annand AI",
+  "description": "Vedic & Lo Shu Grid Numerology Analysis Engine",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
